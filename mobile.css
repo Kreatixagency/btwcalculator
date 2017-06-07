@@ -1,0 +1,107 @@
+body{background-color: #f6f7f8;font-family: -apple-system, BlinkMacSystemFont, sans-serif;}
+
+/* Algemene tekststijlen */
+
+h2{text-transform: uppercase;font-weight: 500;;letter-spacing: 1px;font-size: 12px;color: #6a7b92; margin-bottom: -25px; margin-left:50px; margin-top:42px;}
+h3{margin-bottom: 65px;font-weight: 600;;letter-spacing: 0px;font-size: 30px;margin-left:50px;margin-top:42px;}
+a{color:#4686f2;text-decoration: none;}
+footer{text-align: center;width: 100%;display: inline;float:right;margin-top:25px;color: #6a7b92;margin-bottom:25px;}
+p{font-weight: 300;letter-spacing: 0px;margin-left:50px;}
+.links p{color: #4582F4;}
+.links h2{color:#6a7b92;}
+.rechts h2{color:#a8c7ff;}
+
+/* Stijl 3 algemene vlakken */
+
+.links{background-color: #ffffff;float: left;
+width: 100%;
+
+
+}
+
+
+.rechts{color:#ffffff;
+background: #4582F4; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #4882F5, #3F74E5); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #4882F5, #3F74E5); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #4882F5, #3F74E5); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #4882F5, #3F74E5); /* Standard syntax */
+    /*color:#ffffff;*/
+    float:left;
+    width: 100%;
+
+
+}
+.combo{width:100%;margin-left: auto;margin-right:auto;margin-top:55px;}
+
+/* Input/Output velden */
+
+input{border-width:0px 0px 5px 0px; font-size:20px; width:120px !important;margin-bottom:45px;padding-bottom: 6px;padding-top: 6px;outline: none;}
+.links input{border-color: #EAEAEA;background-color: transparent;color:#4F4F4F;margin-left:50px;border-radius:0px;padding-left: 0px !important;padding-right: 0px !important;}
+.rechts input{border-color: #629cff;background-color: transparent;color:#ffffff;margin-left:50px;border-radius: 0px;padding-left: 0px !important;padding-right: 0px !important;}
+
+#uitkomst1{width:122px;border:solid;border-width:0px 0px 5px 0px;color:#6a7b92; font-size:20px;height:27px;border-color: #EAEAEA;margin-bottom:50px;padding-bottom:5px;font-weight: 700;margin-left:50px;}
+
+#btwhoeveelheid1{width:122px;border:solid;border-width:0px 0px 5px 0px;color:#6a7b92; font-size:20px;height:27px;border-color: #EAEAEA;margin-bottom:59px;padding-bottom:5px;font-weight: 700;margin-left:50px;}
+
+#uitkomst2{width:122px;border:solid;border-width:0px 0px 5px 0px;color:#ffffff; font-size:20px;height:27px;border-color: #629cff;margin-bottom:50px;padding-bottom:5px;font-weight: 700;margin-left:50px;}
+
+#btwhoeveelheid2{width:122px;border:solid;border-width:0px 0px 5px 0px;color:#ffffff; font-size:20px;height:27px;border-color: #629cff;margin-bottom:59px;padding-bottom:5px;font-weight: 700;margin-left:50px;}
+
+
+/* RadioButtons 19% & 21% */
+
+.rechts button{border:none;font-size: 16px;background-color: transparent;padding:0px;color: #A2C3FA;font-family: -apple-system, BlinkMacSystemFont, sans-serif;}
+.rechts button:focus{color: #ffffff;outline:0;}
+
+input[type="radio"] {
+    display:none;
+}
+.links input[type="radio"]:checked + label {
+    color:#4582F4;
+    font-weight: bold;
+}
+.links input[type="radio"] + label {
+    color:#A2C3FA;
+}
+
+.rechts input[type="radio"]:checked + label {
+    color:#ffffff;
+    font-weight: bold;
+}
+.rechts input[type="radio"] + label {
+    color:#A2C3FA;
+}
+
+/* Placeholders */
+.rechts ::-webkit-input-placeholder {
+   color: #ffffff;
+}
+
+.rechts :-moz-placeholder { /* Firefox 18- */
+   color: #ffffff;
+}
+
+.rechts ::-moz-placeholder {  /* Firefox 19+ */
+   color: #ffffff;
+}
+
+.rechts :-ms-input-placeholder {
+   color: #ffffff;
+}
+
+.links ::-webkit-input-placeholder {
+   color: #4F4F4F;
+}
+
+.links :-moz-placeholder { /* Firefox 18- */
+   color: #4F4F4F;
+}
+
+.links ::-moz-placeholder {  /* Firefox 19+ */
+   color: #4F4F4F;
+}
+
+.links :-ms-input-placeholder {
+   color: #4F4F4F;
+}

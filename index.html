@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html>
+<!--Made by KREATIX 2016 - All rights reserved-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>BTWCalculator</title>
+<meta name="description" content="Berekenen makkelijk je BTW met deze handige tool. Gratis in gebruik. Beschikbaar op desktop en mobiele toestellen.">
+<meta name="keywords" content="Btw-Calculator,Kreatix">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" media="only screen and (max-width: 699px)" href="mobile.css" />
+<link rel="stylesheet" media="only screen and (min-width:700px) and (max-width: 1140px)" href="tablet.css" />
+<link rel="stylesheet" media="only screen and (min-width: 1141px)" href="desktop.css" />
+<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87829632-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+
+    <script src="myscript.js"></script>
+
+    <section class="combo">
+        <p style="text-align:center;margin-top:-20px;margin-bottom:55px;margin-left:0px;"><img src="logo@2x.png" style="height:25%; width: 25%;" alt="logo"/></p>
+    <span class="links">
+        <H2>Mijn bedrag is</h2><H3><span style="color:#4582F4;"><b>exclusief</span><span style="color:#6a7b92;"> btw</span></b></H3>
+        <p>Btw exclusief</p>
+        <input type="text" id="bedrag1" name="btwex" onkeyup="exbtw()">
+        <p>Btw &nbsp &nbsp<input type="radio" name="group1" id="6group1" value="1.06" onclick="exbtw()"><label for="6group1">6</label>/<input type="radio" name="group1" id="21group1" value="1.21" onclick="exbtw()" checked><label for="21group1">21</label></p>
+        <p id="btwhoeveelheid1" ></p>
+        <p>Btw inclusief</p>
+        <p id="uitkomst1" ></p>
+    </span>
+    <span class="rechts">
+       <H2>Mijn bedrag is<br></H2><h3>inclusief btw</H3>
+        <p>Btw inclusief</p>
+        <input type="text" id="bedrag2" name="btwinc" onkeyup="incbtw()">
+        <p>Btw &nbsp &nbsp<input type="radio" name="group2" id="6group2" value="1.06" onclick="incbtw()"><label for="6group2">6</label>/<input type="radio" name="group2" id="21group2" value="1.21" onclick="incbtw()" checked><label for="21group2">21</label></p>
+        <p id="btwhoeveelheid2" ></p>
+        <p>Btw exclusief</p>
+        <p id="uitkomst2" ></p>
+    </span>
+        <footer>een initiatief van <a href="http://www.kreatix.be" target="_blank">kreatix.be</a></footer>
+    </section>
+
+
+</body>
+
+</html>
